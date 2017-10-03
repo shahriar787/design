@@ -1,0 +1,499 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{ background-image:url(../images/background.jpg);
+background-attachment:fixed;
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover;
+ margin:0px;}
+
+.main-layout
+{ width:960px; height:1224px; margin:0px auto; background-color:;}
+
+.header
+{ width:960px; height:80px; margin:0px; float:left;}
+
+.header_logo_box
+{ width:250px; height:80px; margin:0px 5px 0px 0px; float:left; background: url(../images/LOGO.png) no-repeat;}
+
+.menu
+{ width:700px; height:40px; margin:20px 0px 0px 0px; float:left; background-color:;}
+
+
+.slider
+{ width:960px; height:420px; margin:0px 0px 5px 0px; float:left; background:url(../images/slide5.jpg) no-repeat;}
+
+.fade{ width:960px; height:420px; margin:0px 0px 0px 0px; float:left; background-color:rgba(51,51,51,.5);}
+
+.property_search
+{ width:960px; height:100px; margin:290px 0px 5px 0px; float:left; background-color:#;}
+
+.text_msg
+{ width:400px; height:100px; margin:120px 0px 0px 250px; float:left; background-color:;
+font-weight:bolder; font-size:30px; text-align:center; color:rgba(255,255,255,1); font-family: 'Playfair Display', serif;}
+
+.city_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 32px; float: left; background:#FFF;}
+#city
+{ width:170px; height:40px; background-color:#; font-size:12px;}
+
+.location_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+#location
+{ width:170px; height:40px; background-color:#; margin:0px 0px 0px 0px;}
+
+.min_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+#min
+{ width:170px; height:41px; background:#;}
+
+.max_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+
+#max
+{ width:170px; height:41px; background:#;}
+
+
+.searchbox
+{ width:200px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+
+
+ 
+input[type=text1] {
+	
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:#f2f2f2;
+    background:url(../images/searchicon.png) right no-repeat;
+   	height:40px;
+	padding-right:30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text1]:focus {
+    width:200px; margin:;
+}
+
+
+
+.agent_title
+{ width:900px; height:40px; margin:0px 0px 3px 0px; float:left; background-color:#;
+font-weight:bolder; font-size:20px; line-height:40px; text-indent:45px; color:#666; font-family: 'Open Sans Condensed', sans-serif;}
+
+.agent_box1
+{ width:900px; height:250px; margin:0px 30px 3px 30px; float:left; background-color:#;}
+
+.box1
+{ width:210px; height:250px; margin:0px 10px 0px 15px; float:left; background:#;}
+.box2
+{ width:210px; height:250px; margin:0px 10px 0px 0px; float:left; background:#;}
+.box3
+{ width:210px; height:250px; margin:0px 10px 0px 0px; float:left; background:#;}
+.box4
+{ width:210px; height:250px; margin:0px 0px 0px 0px; float:left; background:#;}
+
+.agent_img1
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img1.jpg)
+no-repeat; border-radius:50px;}
+.agent_img2
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img2.jpg)
+no-repeat; border-radius:50px;}
+.agent_img3
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img3.jpg)
+no-repeat; border-radius:50px;}
+.agent_img4
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img4.jpg)
+no-repeat; border-radius:50px;}
+
+.agent_name1
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name2
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name3
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name4
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+
+.social_box1
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb1
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter1
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google1
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin1
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb1:hover{ background-color:#2A1FFF;
+}
+.twitter1:hover{ background-color:#0FF;
+}
+.google1:hover{ background-color:#FF3F55;
+}
+.linkedin1:hover{ background-color:#069;
+}
+#fb1{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter1 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google1 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin1 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box2
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+.fb2
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter2
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google2
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin2
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb2:hover{ background-color:#2A1FFF;}
+.twitter2:hover{ background-color:#0FF;}
+.google2:hover{ background-color:#FF3F55;}
+.linkedin2:hover{ background-color:#069;}
+#fb2{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter2 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google2 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin2 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box3
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb3
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter3
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google3
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin3
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb3:hover{ background-color:#2A1FFF;
+}
+.twitter3:hover{ background-color:#0FF;
+}
+.google3:hover{ background-color:#FF3F55;
+}
+.linkedin3:hover{ background-color:#069;
+}
+#fb3{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter3 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google3 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin3 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box4
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb4
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter4
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google4
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin4
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb4:hover{ background-color:#2A1FFF;
+}
+.twitter4:hover{ background-color:#0FF;
+}
+.google4:hover{ background-color:#FF3F55;
+}
+.linkedin4:hover{ background-color:#069;
+}
+#fb4{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;
+}
+#twitter4 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;
+}
+#google4 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;
+}
+#linkedin4 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;
+}
+
+
+
+.agent_box2
+{ width:900px; height:250px; margin:0px 30px 3px 30px; float:left; background-color:#;}
+
+
+.box5
+{ width:210px; height:250px; margin:0px 10px 0px 15px; float:left; background:#;}
+.box6
+{ width:210px; height:250px; margin:0px 10px 0px 0px; float:left; background:#;}
+.box7
+{ width:210px; height:250px; margin:0px 10px 0px 0px; float:left; background:#;}
+.box8
+{ width:210px; height:250px; margin:0px 0px 0px 0px; float:left; background:#;}
+
+.agent_img5
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img5.jpg)
+no-repeat; border-radius:50px;}
+.agent_img6
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img6.jpg)
+no-repeat; border-radius:50px;}
+.agent_img7
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img7.jpg)
+no-repeat; border-radius:50px;}
+.agent_img8
+{ width:100px; height:100px; margin:10px 0px 5px 55px; float:left; background: url(../images/agent_img8.jpg)
+no-repeat; border-radius:50px;}
+
+.agent_name5
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name6
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name7
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+.agent_name8
+{ width:150px; height:35px; margin:0px 30px 10px 30px; float:left; background-color:#;
+font-weight:bolder; font-size:16px; text-align:center; color:#111; line-height:35px;}
+
+.social_box5
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb5
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter5
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google5
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin5
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb5:hover{ background-color:#2A1FFF;
+}
+.twitter5:hover{ background-color:#0FF;
+}
+.google5:hover{ background-color:#FF3F55;
+}
+.linkedin5:hover{ background-color:#069;
+}
+#fb5{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter5 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google5 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin5 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box6
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+.fb6
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter6
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google6
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin6
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb6:hover{ background-color:#2A1FFF;}
+.twitter6:hover{ background-color:#0FF;}
+.google6:hover{ background-color:#FF3F55;}
+.linkedin6:hover{ background-color:#069;}
+#fb6{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter6 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google6 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin6 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box7
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb7
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter7
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google7
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin7
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb7:hover{ background-color:#2A1FFF;
+}
+.twitter7:hover{ background-color:#0FF;
+}
+.google7:hover{ background-color:#FF3F55;
+}
+.linkedin7:hover{ background-color:#069;
+}
+#fb7{ font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;}
+#twitter7 { font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;}
+#google7 { font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;}
+#linkedin7{ font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;}
+
+.social_box8
+{ width:180px; height:40px; margin:0px 15px 0px 15px; float:left; background-color:;}
+
+.fb8
+{ width:30px; height:30px; margin:5px 10px 0px 15px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.twitter8
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.google8
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+.linkedin8
+{ width:30px; height:30px; margin:5px 10px 0px 0px; float:left; background-color:#333;
+border-radius: 20px; transition:2s;}
+
+.fb8:hover{ background-color:#2A1FFF;
+}
+.twitter8:hover{ background-color:#0FF;
+}
+.google8:hover{ background-color:#FF3F55;
+}
+.linkedin8:hover{ background-color:#069;
+}
+#fb8{font-size:16px; color:#FFF; margin-left: 10px; margin-top: 6px;
+}
+#twitter8{ font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 6px;
+}
+#google8{font-size: 16px; color:#FFF; margin-left: 6px; margin-top: 6px;
+}
+#linkedin8{ font-size: 16px; color:#FFF; margin-left: 8px; margin-top: 5px;
+}
+
+
+.footer
+{ width:900px; height:250px; margin:0px 30px 0px 30px; float:left; background:url(../images/footer.jpg) no-repeat;}
+
+.footer_fade
+{ width:900px; height:250px; margin:0px 0px 0px 0px; float:left; background: rgba(0,0,0,.5);}
+
+.footer_left
+{ width:250px; height:200px; margin:5px 25px 0px 45px; float:left; background:#;}
+.follow_us
+{ width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background-color:;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:35px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+.icon_box
+{ width:250px; height:30px; margin:0px 0px 10px 0px; float:left; background-color:#;}
+
+.fb_icon
+{ width:30px; height:30px; margin:0px 3px 0px 10px; float:left; background-color:;
+border-radius:20px; transition:2s;}
+.fb_icon:hover{ background:#066;}
+.twitter_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.twitter_icon:hover{ background:#066;}
+.google_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.google_icon:hover{ background:#066;}
+.linkedin_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.linkedin_icon:hover{ background:#066;}
+.youtube_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.youtube_icon:hover{ background:#066;}
+.pinterest_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.pinterest_icon:hover{ background:#066;}
+.rss_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.rss_icon:hover{ background:#066;}
+
+#fb{ font-size:18px; color:#FFF; margin-left:9px; margin-top:6px;}
+#twitter{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#google{ font-size:16px; color:#FFF; margin-left:6px; margin-top:7px;}
+#linkedin{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#youtube{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#pinterest{ font-size:18px; color:#FFF; margin-left:7px; margin-top:6px;}
+#rss{ font-size:18px; color:#FFF; margin-left:9px; margin-top:6px;}
+
+.copyright
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:12px; color:#FFF; line-height:40px;  text-indent:20px; font-family: 'Kelly Slab', cursive;
+}
+
+.footer_center
+{ width:250px; height:200px; margin:5px 25px 0px 0px; float:left; background:;}
+
+.quick_link
+{ width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background:;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:40px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+
+.quick_link_text
+{ width:230px; height:100px; margin:0px 0px 0px 0px; float:left; background:#;
+font-weight:lighter; font-size:14px; color:#FFF; padding-left:20px; line-height:20px;}
+
+.quick_link_text a{ text-decoration:none; color:#FFF; font-family: 'Kelly Slab', cursive;}
+
+.footer_right
+{ width:250px; height:200px; margin:5px 0px 0px 0px; float:left; background:#;}
+
+.address_title
+{width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background:#;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:35px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+
+.address_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background:#;}
+.address_box
+{ width:250px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+}
+.address_text
+{ width:200px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF; font-family: 'Kelly Slab', cursive;}
+
+
+.phone_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background:#;}
+.phone_box
+{ width:250px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;}
+
+.phone_text
+{ width:200px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF;}
+
+#map{ font-size:18px; color:#FFF; margin-left:8px; margin-top:6px;}
+#phone{ font-size:18px; color:#FFF; margin-left:6px; margin-top:6px;}
+
+.designer
+{ width:900px; height:30px; margin:5px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF; line-height:30px; text-align:center; font-family: 'Kelly Slab', cursive;}

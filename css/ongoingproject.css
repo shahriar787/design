@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{ background-image:url(../images/background.jpg);
+background-attachment:fixed;
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover;
+ margin:0px;}
+
+.main_layout
+{ 
+ width:960px; height:1693px; margin:0px auto; background:#;
+}
+
+.header
+{ width:960px; height:80px; margin:0px; float:left;}
+
+.header_logo_box
+{ width:250px; height:80px; margin:0px 5px 0px 0px; float:left; background: url(../images/LOGO.png) no-repeat;}
+
+.menu
+{ width:700px; height:40px; margin:20px 0px 0px 0px; float:left; background-color:;}
+
+
+.slider
+{ width:960px; height:420px; margin:0px 0px 5px 0px; float:left; background:url(../images/slide5.jpg) no-repeat;}
+
+.fade{ width:960px; height:420px; margin:0px 0px 0px 0px; float:left; background-color:rgba(51,51,51,.5);}
+
+.property_search
+{ width:960px; height:100px; margin:290px 0px 5px 0px; float:left; background-color:#;}
+
+.text_msg
+{ width:400px; height:100px; margin:120px 0px 0px 250px; float:left; background-color:;
+font-weight:bolder; font-size:30px; text-align:center; color:rgba(255,255,255,1); font-family: 'Playfair Display', serif;}
+
+.city_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 32px; float: left; background:#FFF;}
+#city
+{ width:170px; height:40px; background-color:#; font-size:12px;}
+
+.location_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+#location
+{ width:170px; height:40px; background-color:#; margin:0px 0px 0px 0px;}
+
+.min_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+#min
+{ width:170px; height:41px; background:#;}
+
+.max_searchbox
+{ width:170px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+
+#max
+{ width:170px; height:41px; background:#;}
+
+
+.searchbox
+{ width:200px; height:40px; margin:30px 5px 0px 0px; float: left; background:#FFF;}
+
+
+ 
+input[type=text1] {
+	
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:#fff;
+    background:url(../images/searchicon.png) right no-repeat;
+   	height:40px;
+	padding-right:30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text1]:focus {
+    width:200px; margin:;
+}
+
+.project-title
+{ width:900px; height:40px; margin:0px 30px 10px 30px; float:left; background:#;
+font-weight:bold; font-size:20px; text-indent:55px; color:#333; line-height:40px; font-family: 'Open Sans Condensed', sans-serif;} 
+ 
+.box1{width:900px; height:320px; margin:0px 30px 3px 30px; float:left; background-color:;}
+
+.box2{width:900px; height:320px; margin:0px 30px 3px 30px; float:left; background-color:;}
+
+.box3{width:900px; height:320px; margin:0px 30px 3px 30px; float:left; background-color:;}
+ 
+.project1
+{ width:250px; height:320px; margin:0px 20px 0px  55px; float:left; background-color:#;}
+
+.project_img1
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project1.jpg) no-repeat;}
+
+.project_name1
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px;  text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address1
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+
+.project2
+{ width:250px; height:320px; margin:0px 20px 0px 0px; float:left; background-color:#;}
+
+.project_img2
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project2.jpg) no-repeat;}
+
+.project_name2
+{ width:250px;  height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px;  text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address2
+{ width:250px;  height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+ 
+ 
+ .project3
+{ width:250px;  height:330px; margin:0px 0px 0px 0px; float:left; background-color: }
+
+.project_img3
+{ width:250px;  height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project3.jpg) no-repeat;}
+
+.project_name3
+{ width:250px;  height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px;  text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address3
+{ width:250px;  height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+ 
+ 
+ 
+ .project4
+{ width:250px; height:320px; margin:0px 20px 0px  55px; float:left; background-color:#;}
+
+.project_img4
+{ width:250px;  height:250px; margin:0px 20px 0px 0px; float:left; background: url(../images/project4.jpg) no-repeat;}
+
+.project_name4
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px;  text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address4
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+ 
+ 
+ .project5
+{ width:250px; height:320px; margin:0px 20px 0px 0px; float:left; background-color:#;}
+
+.project_img5
+{ width:250px;  height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project5.jpg) no-repeat;}
+
+.project_name5
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px;  text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address5
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+
+ .project6
+{ width:250px; height:320px; margin:0px 0px 0px 0px; float:left; background-color:#;}
+
+.project_img6
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project6.jpg) no-repeat;}
+
+.project_name6
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px; text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address6
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+
+ .project7
+{ width:250px; height:320px; margin:0px 20px 0px 55px; float:left; background-color:;}
+
+.project_img7
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project7.jpg) no-repeat;}
+
+.project_name7
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px; text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address7
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+
+ .project8
+{ width:250px; height:320px; margin:0px 20px 0px 0px; float:left; background-color:#;}
+
+.project_img8
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project8.jpg) no-repeat;}
+
+.project_name8
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px; text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address8
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;} 
+
+ .project9
+{ width:250px; height:320px; margin:0px 0px 0px 0px; float:left; background-color:#;}
+
+.project_img9
+{ width:250px; height:250px; margin:0px 0px 0px 0px; float:left; background: url(../images/project9.jpg) no-repeat;}
+
+.project_name9
+{ width:250px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#066;
+font-weight:bold; font-size:14px; text-indent:30px; color:#fff; line-height:30px; font-family: 'Open Sans Condensed', sans-serif;} 
+
+.project_address9
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#066;}
+ 
+.add_text1
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text2
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text3
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif;} 
+.add_text4
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text5
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text6
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text7
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text8
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+.add_text9
+{ width:220px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#fff; font-family: 'Open Sans Condensed', sans-serif; line-height:40px;} 
+
+.icon1
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon2
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon3
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon4
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon5
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon6
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon7
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+.icon8
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:;}
+ .icon9
+{ width:30px; height:40px; margin:0px 0px 0px 0px; float:left;  background:}
+ 
+#fa1{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa2{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa3{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa4{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa5{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa6{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa7{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa8{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+#fa9{ font-size:20px; color:#ff0; margin-left:8px; margin-top:10px;} 
+ 
+.footer
+{ width:900px; height:250px; margin:0px 30px 0px 30px; float:left; background:url(../images/footer.jpg) no-repeat;}
+
+.footer_fade
+{ width:900px; height:250px; margin:0px 0px 0px 0px; float:left; background: rgba(0,0,0,.5);}
+
+.footer_left
+{ width:250px; height:200px; margin:5px 25px 0px 45px; float:left; background:#;}
+.follow_us
+{ width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background-color:;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:35px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+.icon_box
+{ width:250px; height:30px; margin:0px 0px 10px 0px; float:left; background-color:#;}
+
+.fb_icon
+{ width:30px; height:30px; margin:0px 3px 0px 10px; float:left; background-color:;
+border-radius:20px; transition:2s;}
+.fb_icon:hover{ background:#066;}
+.twitter_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.twitter_icon:hover{ background:#066;}
+.google_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.google_icon:hover{ background:#066;}
+.linkedin_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.linkedin_icon:hover{ background:#066;}
+.youtube_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.youtube_icon:hover{ background:#066;}
+.pinterest_icon
+{ width:30px; height:30px; margin:0px 3px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.pinterest_icon:hover{ background:#066;}
+.rss_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background-color:#;
+border-radius:20px; transition:2s;}
+.rss_icon:hover{ background:#066;}
+
+#fb{ font-size:18px; color:#FFF; margin-left:9px; margin-top:6px;}
+#twitter{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#google{ font-size:16px; color:#FFF; margin-left:6px; margin-top:7px;}
+#linkedin{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#youtube{ font-size:18px; color:#FFF; margin-left:7px; margin-top:5px;}
+#pinterest{ font-size:18px; color:#FFF; margin-left:7px; margin-top:6px;}
+#rss{ font-size:18px; color:#FFF; margin-left:9px; margin-top:6px;}
+
+.copyright
+{ width:250px; height:40px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:12px; color:#FFF; line-height:40px;  text-indent:20px; font-family: 'Kelly Slab', cursive;
+}
+
+.footer_center
+{ width:250px; height:200px; margin:5px 25px 0px 0px; float:left; background:;}
+
+.quick_link
+{ width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background:;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:40px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+
+.quick_link_text
+{ width:230px; height:100px; margin:0px 0px 0px 0px; float:left; background:#;
+font-weight:lighter; font-size:14px; color:#FFF; padding-left:20px; line-height:20px;}
+
+.quick_link_text a{ text-decoration:none; color:#FFF; font-family: 'Kelly Slab', cursive;}
+
+.footer_right
+{ width:250px; height:200px; margin:5px 0px 0px 0px; float:left; background:#;}
+
+.address_title
+{width:250px; height:35px; margin:0px 0px 10px 0px; float:left; background:#;
+font-weight:bolder; font-size:22px; color:#FFF; line-height:35px; text-indent:20px; font-family: 'Kelly Slab', cursive;}
+
+.address_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background:#;}
+.address_box
+{ width:250px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+}
+.address_text
+{ width:200px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF; font-family: 'Kelly Slab', cursive;}
+
+
+.phone_icon
+{ width:30px; height:30px; margin:0px 0px 0px 0px; float:left; background:#;}
+.phone_box
+{ width:250px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;}
+
+.phone_text
+{ width:200px; height:60px; margin:0px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF;}
+
+#map{ font-size:18px; color:#FFF; margin-left:8px; margin-top:6px;}
+#phone{ font-size:18px; color:#FFF; margin-left:6px; margin-top:6px;}
+
+.designer
+{ width:900px; height:30px; margin:5px 0px 0px 0px; float:left; background-color:#;
+font-weight:lighter; font-size:14px; color:#FFF; line-height:30px; text-align:center; font-family: 'Kelly Slab', cursive;}
